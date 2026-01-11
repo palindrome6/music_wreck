@@ -3,9 +3,15 @@ name = "music-wreck"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8,<3.12"
 dependencies = [
+    "faiss-cpu>=1.8.0.post1",
     "fastapi>=0.120.4",
-    "numpy>=2.3.4",
-    "pandas>=2.3.3",
+    "librosa>=0.11.0",
+    "numpy>=1.24.4",
+    "openl3>=0.4.2",
+    "pandas>=2.0.3",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.0.1",
+    "spotipy>=2.23.0",
 ]
